@@ -19,6 +19,7 @@
 
     <modules>
         <module>springboot-helloworld</module>
+        <module>springboot-filter-interceptor</module>
     </modules>
 
     <dependencies>
