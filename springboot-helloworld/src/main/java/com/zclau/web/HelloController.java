@@ -3,6 +3,7 @@ package com.zclau.web;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.HashMap;
@@ -27,6 +28,12 @@ public class HelloController {
         result.put("msg", "ok");
         result.put("result", 11111);
         return result;
+    }
+
+    @RequestMapping(value = "/string",
+                    method = RequestMethod.POST)
+    String string() {
+        return "post method";
     }
 
     public static void main(String[] args) throws Exception {
