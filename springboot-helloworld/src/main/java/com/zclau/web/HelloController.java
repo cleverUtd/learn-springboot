@@ -35,8 +35,4 @@ public class HelloController {
     String string() {
         return "post method";
     }
-
-    public static void main(String[] args) throws Exception {
-        SpringApplication.run(HelloController.class, args);
-    }
 }
