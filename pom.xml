@@ -20,6 +20,7 @@
     <modules>
         <module>springboot-helloworld</module>
         <module>springboot-filter-interceptor</module>
+        <module>springboot-mybatis</module>
     </modules>
 
     <dependencies>
